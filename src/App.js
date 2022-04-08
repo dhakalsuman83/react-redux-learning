@@ -13,7 +13,7 @@ function App() {
     dispatch(decrement());
   };
   return (
-    <div className="App">
+    <div className="App" style={{ margin: "50px" }}>
       <h1>Counter</h1>
       <button onClick={onIncrease}>+</button>
       <p>{counter}</p>
